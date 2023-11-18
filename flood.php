@@ -39,15 +39,14 @@ $click = file_get_contents('clicks');
     $user = file_get_contents("username");
 $MadelineProto->account->updateUsername(['username'=>$user]);
       $data = date("h:i:s");
-      bot('sendvideo',['chat_id' => file_get_contents("ID"), 'video' => "https://t.me/isiraqi/24",
+      bot('sendvideo',['chat_id' => file_get_contents("ID"), 'video' => "https://t.me/c_7c7/38",
 'caption'=>"
-> 𝑁𝐸𝑊 𝐹𝐿𝑂𝑂𝐷 𝐶𝐴𝑇𝐶𝐻𝐼𝑁𝐺𖠚<
-- 𝑈𝑆𝐸𝑅𝑁𝐴𝑀𝐸𖠛 : @$user
-- 𝐶𝐿𝐼𝐶𝐾𝑆🜜: $click
-- 𝑆𝐴𝑉𝐸𝐷 𝐼𝑁 : 𝐴𝐶𝐶𝑂𝑈𝑁𝑇🝉
-- 𝑁𝑈𝑀𝐵𝐸𝑅𐇰:   +$phone  | $data
-==========================
-BY : @H_P_K",
+𝑰𝒔 𝒂 𝑵𝒆𝒘 𝒖𝒔𝒆𝒓 𝑩𝒚 : 𝒂𝑩𝒐𝒐𝑫 𝒀𝒂𝑩𝒉 🐊,
+এ〔 ᥙ𝗌𝖾𝗋ᥒα𝗆𝖾 〕: $user
+এ〔 ᥴ𝗅Ꭵᥴ𝗄𝗌 〕: $click
+এ〔 𝗌α᥎𝖾 〕: 𝑨𝒄𝒄𝒐𝒖𝒏𝒕
+এ〔 ᥴh 〕: @ToGoLang
+এ〔 ᥒᥙ𝗆𝖻𝖾𝗋 〕: +$phone | $data",
 ]);
 shell_exec('pm2 stop flood.php');
 unlink('username');
