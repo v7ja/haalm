@@ -38,18 +38,18 @@ $message = $upd['result'][0]['message'];
 if($text == '/start' and $chat_id != $sudo){ 
 bot('sendmessage',[ 
 'chat_id'=>$chat_id,  
-'text'=>" Hi . This To Bot Hallm 🇮🇶 
+'text'=>" Hi . This To Bot aBooD
 ",'parse_mode' => "MarkDown", 'disable_web_page_preview' => true,
 'reply_markup' => json_encode(['inline_keyboard' => [
-[['text' => "HALLM", 'url' => "https://t.me/H_P_K"]], 
+[['text' => "aBooD", 'url' => "https://t.me/kx_kkk"]], 
 ]]) 
 ]);
 }
 if($from_id == $sudo){
 if($text == '/start' or $text == '/Home' or $text == "Back"){
-bot('sendvideo',['chat_id' => file_get_contents("ID"), 'video' => "https://t.me/isiraqi/24",
+bot('sendvideo',['chat_id' => file_get_contents("ID"), 'video' => "https://t.me/c_7c7/38",
 'caption'=>" 
-The War is Begin 🧭
+The Strong is : @kx_kkk 🇮🇶
 ", 
 'inline_keyboard'=>true,
 'reply_markup'=>json_encode([
@@ -107,7 +107,7 @@ $count = count($accounts);
 bot('sendmessage',[
 'chat_id'=>$chat_id,
 'text'=>"ارقامك الحالية  : $count 
-By : @H_P_K ⚡️
+By : @kx_kkk
 ",
 ]);
 }
